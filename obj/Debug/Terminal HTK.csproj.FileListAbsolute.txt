@@ -1,0 +1,10 @@
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\bin\Debug\Terminal HTK.exe.config
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\bin\Debug\Terminal HTK.exe
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\bin\Debug\Terminal HTK.pdb
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal_HTK.Form1.resources
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal_HTK.Properties.Resources.resources
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.csproj.GenerateResource.cache
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.csproj.CoreCompileInputs.cache
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.exe
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.pdb
+E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.csprojAssemblyReference.cache
