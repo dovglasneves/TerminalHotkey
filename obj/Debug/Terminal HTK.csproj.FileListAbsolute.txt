@@ -8,3 +8,4 @@ E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.csproj.C
 E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.exe
 E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.pdb
 E:\Coding\VisualStudio\Terminal HTK\Terminal HTK\obj\Debug\Terminal HTK.csprojAssemblyReference.cache
+E:\Coding\VisualStudio\Terminal HTK\obj\Debug\Terminal HTK.csprojAssemblyReference.cache

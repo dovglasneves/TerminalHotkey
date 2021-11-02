@@ -36,6 +36,8 @@ class InterceptKeys
     private static LowLevelKeyboardProc _proc = HookCallback;
     public bool UseShellExecute { get; set; }
     private static IntPtr _hookID = IntPtr.Zero;
+    const uint SWP_NOSIZE = 0x0001;
+    const uint SWP_NOZORDER = 0x0004;
 
     public static void Main()
     {
@@ -79,9 +81,10 @@ class InterceptKeys
                     {
                         string Path = StartUpOptions.GetPath();
                         compiler.StartInfo.FileName = "wt";
-                        //compiler.StartInfo.Arguments = "-d \"" +Path +"\"";
                         compiler.StartInfo.UseShellExecute = true;
                         compiler.Start();
+                        _windowHandle = FindWindow("CASCADIA_HOSTING_WINDOW_CLASS", null);
+                        SetWindowPos(_windowHandle, IntPtr.Zero, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOZORDER);
                     }
                     else
                     {
@@ -110,6 +113,9 @@ class InterceptKeys
 
     [DllImport("user32.dll", SetLastError = true)]
     static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
+
+    [DllImport("user32.dll", SetLastError = true)]
+    static extern bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int X, int Y, int cx, int cy, uint uFlags);
 
     [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
     private static extern IntPtr SetWindowsHookEx(int idHook,
